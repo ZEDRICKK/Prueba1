@@ -470,6 +470,35 @@ ul {
     
   }
   
+  .cuadrodiv{
+    width: 300px;
+    height: 196.2px;
+    position: absolute;
+    background-color: #2B388CD9;
+  }
+
+  #span22{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 10%;
+    font-size: 36px;
+    color: #2B388C;
+    width: 274px;
+    height: 148px ;
+    font-weight: bolder;
+    left: 42%;
+  }
+
+  .lastspan{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    font-size: 20px;
+    color: #2B388C;
+  }
 
 
  
