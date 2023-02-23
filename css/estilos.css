@@ -1,7 +1,7 @@
 
 
 body{
-  background-image: url('/55-Prueba/img/c86aa8_19e4d7b13e704d5e94e25ed56ded56cc_mv2.webp');
+  background-image: url('/img/c86aa8_19e4d7b13e704d5e94e25ed56ded56cc_mv2.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -376,6 +376,100 @@ ul {
     
   }
 
+  #span18{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:  helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    left: 20%;
+    color: #2B388C;
+    width: 561px;
+    height: 113.5px ;
+    text-align: left;
+    font-weight: bolder;
+    
+  }
+
+  #span19{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+    left: 35%;
+    color: #2B388C;
+    width: 357px;
+    height: 120px ;
+    text-align: justify;
+    
+  }
+
+  #span20{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 55%;
+    font-size: 20px;
+    left: 45%;
+    color: #2B388C;
+    width: 215px;
+    height: 120px ;
+    text-align: justify;
+    
+  }
+
+  #span21{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 20%;
+    font-size: 31px;
+    left: 60%;
+    color: #ffffff;
+    width: 274px;
+    height: 148px ;
+    text-align: left;
+    
+  }
+
+
+  .circulo {
+    width: 425px;
+    height: 427px;
+    border-radius: 50%;
+    background-color: #2B388C;
+    border: 4px solid white;
+    position: absolute;
+    top: -10%;
+    left: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton1 {
+    background-color: #1CA17E; /* Color de fondo del botón */
+    color: rgb(255, 255, 255); /* Color del texto del botón */
+    border-radius: 20px; /* Radio de las esquinas del botón */
+    padding: 10px 20px; /* Espacio interior del botón */
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    height: 43px;
+    width: 215px;
+    border: 1px solid white;
+  }
+
+  .boton1:hover {
+    background-color: #186651;
+    
+  }
+  
 
 
  
