@@ -1,6 +1,9 @@
 
 
-body{
+#everything{
+  margin:0 auto;
+  min-height: 100%;
+  justify-content: stretch;
   background-image: url('/img/c86aa8_19e4d7b13e704d5e94e25ed56ded56cc_mv2.webp');
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,14 +11,6 @@ body{
   background-position: center;
   position: relative;
   min-height: 100vh;
-}
-
-
-#everything{
-  margin:0 auto;
-  min-height: 100%;
-  justify-content: stretch;
-  
 }
 
 #container{
@@ -31,6 +26,8 @@ body{
   z-index: 2;
 }
 
+
+
 #blue{
   width: 300px;
 }
@@ -38,27 +35,36 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
     margin: 0 auto;
+    width: 727px;
+    height: 22px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
   }
 
   .lista{
     border-right:none;
   }
   
+  .cuadroDeLista{
+    width: 100px;
+    height: 22px;
+    border-right: 1px solid #B45AD3;
+    padding-right: 10px;
+  }
 
   li {
     display: inline-block;
-    width: 100px;
-    height: 25px;
-    padding: 2px;
+    width: 118px;
+    height: 22px;
+    padding: 0 9px;
     color: #B45AD3;
-    margin: 0 10px;
-    border-right: 1px solid #B45AD3;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
@@ -123,11 +129,12 @@ ul {
     align-items: center;
   }
 
-  #bluelogo{
+  .bluelogo{
     width: 210px;
     height: 41px;
-    object-fit: cover;
-    border-right:none;
+    position: absolute;
+    left: 22%;
+    top: 33%;
   }
 
   #span2{
