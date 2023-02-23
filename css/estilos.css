@@ -507,5 +507,74 @@ ul {
     color: #2B388C;
   }
 
+  #span23{
+    line-height:1.3em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    color: #ffffff;
+    width: 465.16px;
+    height: 273.33px ;
+    left: 10%;
+  }
+
+  #span24{
+    line-height:1.2em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 15%;
+    font-size: 24px;
+    color: #ffffff;
+    width: 466px;
+    height: 57px ;
+    left: 10%;
+  }
+
+  .lastspan1{
+    line-height:1.3em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    color: #2B388C;
+   
+   
+  }
+
+  .circulos {
+    
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .boton2 {
+    background-color: #1CA17E; /* Color de fondo del botón */
+    color: rgb(255, 255, 255); /* Color del texto del botón */
+    border-radius: 20px; /* Radio de las esquinas del botón */
+    padding: 10px 20px; /* Espacio interior del botón */
+    position: absolute;
+    height: 46px;
+    width: 192px;
+    border: none;
+    font-size: 18px;
+  }
+  
+  .spanVerde{
+    line-height:1.3em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    color: #1CA17E;
+    font-size: 14px;
+   
+  }
+  
+
 
  
