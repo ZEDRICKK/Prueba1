@@ -2,7 +2,7 @@
 
 #everything{
   margin:0 auto;
-  min-height: 100%;
+  min-height: 100vh;
   justify-content: stretch;
   background-image: url('/img/c86aa8_19e4d7b13e704d5e94e25ed56ded56cc_mv2.webp');
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-position: center;
   position: relative;
-  min-height: 100vh;
+  
 }
 
 #container{
@@ -121,6 +121,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
 
   #main{
@@ -575,6 +576,61 @@ ul {
    
   }
   
+  .notes{
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    color: #2B388C;
+    font-size: 28px;
+    width: 300px;
+  }
 
+  .notes1{
+    line-height:1.4em; 
+    font-family:  helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    width: 255.7px;
+  }
 
- 
+  .noteTitle{
+    line-height:1.4em; 
+    font-family:  helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #1CA17E;
+    text-align: left;
+    width: 255.7px;
+    font-weight: bolder;
+  }
+
+  #span25{
+    line-height:1.2em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 6%;
+    font-size: 32px;
+    color: #2B388C;
+    width: 430px;
+    height: 76px ;
+    left: 5%;
+    font-weight: bold;
+  }
+
+  .listgreen{
+    line-height:1.3em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+  }
+
+  .titulofuerte{
+    font-family:  helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+  }
+
+  
