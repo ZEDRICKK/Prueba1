@@ -633,4 +633,30 @@ ul {
     position: absolute;
   }
 
+  .opacidad div{
+    opacity: 0.8;
+  }
+
+
+  #span26{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 10%;
+    font-size: 36px;
+    color: #ffffff;
+    width: 274px;
+    height: 148px ;
+    font-weight: bolder;
+    left: 42%;
+  }
   
+  .lastspan2{
+    line-height:1.5em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+  }
