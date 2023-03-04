@@ -660,3 +660,20 @@ ul {
     font-size: 20px;
     color: #fff;
   }
+
+  #span27{
+    line-height:1.4em; 
+    letter-spacing: 0.03em;
+    font-family:worksans-extralight,work sans,sans-serif;
+    position: absolute;
+    top: 15%;
+    font-size: 28px;
+    color: #ffffff;
+    width: 466px;
+    height: 57px ;
+    left: 10%;
+  }
+
+
+  ::placeholder {color: white;}
+  
