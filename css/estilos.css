@@ -447,14 +447,8 @@ ul {
 
 
   .circulo {
-    width: 425px;
-    height: 427px;
     border-radius: 50%;
-    background-color: #2B388C;
-    border: 4px solid white;
     position: absolute;
-    top: -10%;
-    left: 59%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -676,4 +670,5 @@ ul {
 
 
   ::placeholder {color: white;}
+  
   
