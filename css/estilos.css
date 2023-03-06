@@ -671,4 +671,11 @@ ul {
 
   ::placeholder {color: white;}
   
-  
+  .vineta{
+    font-family:  helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 22%;
+    font-size: 20px;
+  }
