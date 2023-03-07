@@ -686,5 +686,34 @@ ul {
     font-size: 20px;
   }
 
+  .botonFlecha{
+    font-size: 80px;
+    color: #b4b4b4;
+    position: absolute;
+   font-family: monospace;
+   font-weight: 100;
+  }
+
+  #magazineL{
+    position: absolute;
+    object-fit: cover;
+    width: 285px;
+    height: 337px;
+    transform: rotate(8deg);
+    left: 55%;
+    top: 8%;
+    box-shadow: 5px 8px 6px 0px rgba(0,0,0,0.6);
+    
+  }
  
+  #Quote{
+    position: absolute;
+    object-fit: cover;
+    width: 416.67px;
+    height: 238px;
+    left: 52%;
+    top: 16%;
+    box-shadow: 5px 8px 6px 0px rgba(0,0,0,0.6);
+    
+  }
 
