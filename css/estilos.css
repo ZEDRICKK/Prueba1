@@ -686,12 +686,22 @@ ul {
     font-size: 20px;
   }
 
-  .botonFlecha{
+  #botonFlecha{
     font-size: 80px;
     color: #b4b4b4;
     position: absolute;
    font-family: monospace;
    font-weight: 100;
+   cursor: pointer;
+  }
+
+  #botonFlecha1{
+    font-size: 80px;
+    color: #b4b4b4;
+    position: absolute;
+   font-family: monospace;
+   font-weight: 100;
+   cursor: pointer;
   }
 
   #magazineL{
@@ -716,4 +726,42 @@ ul {
     box-shadow: 5px 8px 6px 0px rgba(0,0,0,0.6);
     
   }
+
+.ocultar{
+  display: none;
+}
+
+#Klas{
+  position: absolute;
+  object-fit: cover;
+  width: 479.67px;
+  height: 213px;
+  left: 50%;
+  top: 25%;
+  box-shadow: 5px 8px 6px 0px rgba(0,0,0,0.6);
+  
+}
+
+.puntero{
+  font-size: 60px;
+ color: #cfcfcf;
+  position: absolute;
+  
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 25px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 90%;
+  left: 77.3%;
+  z-index: 2;
+}
+
+.triangulo:hover {
+  height: 100px;
+}
 
