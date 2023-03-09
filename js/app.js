@@ -21,7 +21,7 @@ function incrementarContador() {
   
   setInterval(incrementarContador, 2500);
 
-selector.forEach(elemento => {
+ selector.forEach(elemento => {
   elemento.addEventListener('mouseover', () => {
     elemento.style.color = '#5700d1';
   });
