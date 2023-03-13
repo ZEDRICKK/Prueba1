@@ -4,6 +4,7 @@ const pasarAtras = document.querySelectorAll('#botonFlecha1');
 const claseocultar1 = document.querySelector('#ocultarDiv1');
 const claseocultar2 = document.querySelector('#ocultarDiv2');
 const claseocultar3 = document.querySelector('#ocultarDiv3');
+const btn6 = document.querySelector('#boton6');
 const p1 = document.querySelector('#p1');
 const p2 = document.querySelector('#p2');
 const p3 = document.querySelector('#p3');
@@ -92,3 +93,7 @@ function actualizarVisibilidad() {
 }
 
 console.log(contador);
+
+btn6.addEventListener('click', () => {
+  window.location.href = "experienceNavi.html";
+});
