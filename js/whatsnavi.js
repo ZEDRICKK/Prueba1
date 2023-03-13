@@ -7,6 +7,8 @@ const whatsD3 = document.querySelector('#whatsD3');
 const whatsN3 = document.querySelector('#whatsN3');
 const whatsD4 = document.querySelector('#whatsD4');
 const whatsN4 = document.querySelector('#whatsN4');
+const btn = document.querySelector('#boton2');
+const btn2 = document.querySelector('#boton3');
 
 
 selector.forEach(elemento => {
@@ -62,4 +64,12 @@ selector.forEach(elemento => {
     whatsD4.classList.remove('ocultar');
     whatsN4.classList.add('ocultar');
   });
+
+
+  btn.addEventListener('click', () => {
+    window.location.href = "experienceNavi.html";
+  });
   
+  btn2.addEventListener('click', () => {
+    window.location.href = "ContactUs.html";
+  });

@@ -565,6 +565,11 @@ ul {
     border: none;
     font-size: 18px;
   }
+
+  .boton2:hover {
+    background-color: #1b755d;
+  }
+
   
   .spanVerde{
     line-height:1.3em; 
