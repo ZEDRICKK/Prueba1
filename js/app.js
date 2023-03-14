@@ -9,7 +9,10 @@ const p1 = document.querySelector('#p1');
 const p2 = document.querySelector('#p2');
 const p3 = document.querySelector('#p3');
 
+
 let contador = 0;
+
+
 
 function incrementarContador() {
     if (contador < 3) {
@@ -19,7 +22,8 @@ function incrementarContador() {
     }
     actualizarVisibilidad();
   }
-  
+
+
   setInterval(incrementarContador, 2500);
 
  selector.forEach(elemento => {
@@ -97,3 +101,6 @@ console.log(contador);
 btn6.addEventListener('click', () => {
   window.location.href = "experienceNavi.html";
 });
+
+
+
