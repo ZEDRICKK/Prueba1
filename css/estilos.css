@@ -782,3 +782,6 @@ ul {
   height: 100px;
 }
 
+#map {
+  height: 100%;
+}

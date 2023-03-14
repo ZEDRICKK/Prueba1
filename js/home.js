@@ -2,6 +2,7 @@ const btn7 = document.querySelector('#btn7');
 const readStory = document.querySelector('#boton8');
 const readStory1 = document.querySelector('#boton9');
 const readStory2 = document.querySelector('#boton10');
+const btn11 = document.querySelector('#boton11');
 
 btn7.addEventListener('click', () => {
     window.location.href = "experienceNavi.html"
@@ -18,6 +19,10 @@ btn7.addEventListener('click', () => {
 
   readStory2.addEventListener('click', () => {
     window.open("http://demo-vp.herokuapp.com/src/patient/landing-bio.html");
+  });
+
+  btn11.addEventListener('click', () => {
+    window.location.href = "experienceNavi.html"
   });
 
 

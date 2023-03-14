@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapa de Google Maps</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API"></script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 37.7749, lng: -122.4194},
+          zoom: 13
+        });
+        var searchBox = new google.maps.places.SearchBox(document.getElementById('search-box'));
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+        var markers = [];
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+          if (places.length == 0) {
+            return;
+          }
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var marker = new google.maps.Marker({
+              map: map,
+              title: place.name,
+              position: place.geometry.location
+            });
+            markers.push(marker);
+            if (place.geometry.viewport) {
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+          document.getElementById('address').innerHTML = places[0].formatted_address;
+        });
+      }
+    </script>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body onload="initMap()">
+    <div id="map"></div>
+    <input id="search-box" type="text" placeholder="Buscar dirección">
+    <div>Dirección seleccionada: <span id="address"></span></div>
+  </body>
+</html>
